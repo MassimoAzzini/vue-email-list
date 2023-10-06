@@ -22,7 +22,7 @@ createApp({
           
           .catch((error) => {
             console.log(error)
-        })
+        });
       }
     }
     
@@ -30,10 +30,10 @@ createApp({
 
   mounted() {
 
-    this.getApi(this.numberMail)
+    this.getApi(this.numberMail);
     console.log(this.newArray)
 
   },
 
 
-}).mount('#app')
+}).mount('#app');
