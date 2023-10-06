@@ -5,9 +5,7 @@ createApp({
     return {
       apiUrl: 'https://flynn.boolean.careers/exercises/api/random/mail',
       newArray: [],
-      numberMail: 10,
-      itemEmail: '',
-      
+      numberMail: 10
     }
   },
 
@@ -34,7 +32,7 @@ createApp({
 
     this.getApi(this.numberMail)
     console.log(this.newArray)
-    
+
   },
 
 
