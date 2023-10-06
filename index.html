@@ -16,10 +16,12 @@
 </head>
 <body>
   <div id="app">
-    
-    <ul>
+
+    <ul v-if="newArray.length === numberMail">
       <li v-for="mail in newArray">{{ mail }}</li>
     </ul>
+
+
 
   </div>
   
